@@ -5,7 +5,7 @@ This repository contains the code and figures for the paper:
 > **Exact Counterfactual Explanations for Decision Trees via Leaf-Box Projection**  
 > Zhigao Huang*, Yipu Yuan*, Shiyan Zheng†, Mianmian Zhou, Jinmei Wu, Jinfa Wei, Shufen Li  
 > (* Equal contribution, † Corresponding author: buddhasson@icloud.com)  
-> College of Physics and Information Engineering, Quanzhou Normal University
+> Key Laboratory of Information Functional Material for Fujian Higher Education, Quanzhou Normal University, Quanzhou 362000, China
 
 ## Overview
 
