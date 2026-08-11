@@ -20,6 +20,18 @@ ROOT = Path(__file__).resolve().parents[1]
 EXP_DIR = ROOT / "exp"
 FIG_DIR = ROOT / "figures"
 
+plt.rcParams.update({
+    "font.size": 13,
+    "axes.labelsize": 14,
+    "axes.titlesize": 15,
+    "xtick.labelsize": 12,
+    "ytick.labelsize": 12,
+    "legend.fontsize": 12,
+    "figure.titlesize": 16,
+    "lines.linewidth": 2.2,
+    "lines.markersize": 7,
+})
+
 
 @dataclass
 class Box:
