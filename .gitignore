@@ -1,0 +1,43 @@
+# Allowlist approach: ignore everything by default, then explicitly include artifact files
+
+# Ignore everything
+*
+
+# Allow root-level artifact files
+!README.md
+!LICENSE
+!experiment_counterfactual.py
+!.gitignore
+
+# Allow experiment runner
+!experiment/
+experiment/**
+!experiment/run_experiments.py
+
+# Allow figures
+!figures/
+figures/**
+!figures/*.png
+
+# Allow result files
+!exp/
+exp/**
+!exp/stage1/
+!exp/stage2/
+!exp/stage3/
+exp/stage1/**
+exp/stage2/**
+exp/stage3/**
+!exp/stage1/*.json
+!exp/stage1/*.csv
+!exp/stage2/*.json
+!exp/stage2/*.csv
+!exp/stage3/*.json
+!exp/stage3/*.csv
+!exp/reproducibility.json
+!exp/final_assessment.json
+
+# Exclude Python cache anywhere
+**/__pycache__/
+**/*.pyc
+**/*.pyo

@@ -1,0 +1,15 @@
+{
+  "target": "SCI/SSCI Q2 experimental evidence bar",
+  "checks": {
+    "dataset_count": 5,
+    "method_count": 4,
+    "max_optimality_gap": 1.1102230246251563e-16,
+    "scalability_depth_points": 6,
+    "scalability_feature_points": 6,
+    "ablation_methods": 4,
+    "stability_seed_count": 20,
+    "noise_levels": 5,
+    "case_study_datasets": 5
+  },
+  "achieved": true
+}

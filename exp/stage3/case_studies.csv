@@ -1,0 +1,6 @@
+dataset,seed,test_index,target_class,distance_l2,n_changed_features,top_feature_changes
+breast_cancer,0,0,1,0.3925036715034334,1,mean concave points: 0.0643 -> 0.0489 (|d|=0.0154)
+wine_binary,0,0,1,1.7206658482983965,2,proline: 615.0000 -> 755.0003 (|d|=140.0003) | flavanoids: 0.6800 -> 2.2350 (|d|=1.5550)
+iris_binary,0,0,0,0.7955189480126407,1,petal width (cm): 0.2000 -> 0.8000 (|d|=0.6000)
+digits_0_vs_1,0,0,0,1.0299382092499623,1,pixel_36: 8.0000 -> 0.5000 (|d|=7.5000)
+synthetic_20,0,0,0,0.19097201599128916,1,feat_1: -1.5479 -> -2.5513 (|d|=1.0035)
